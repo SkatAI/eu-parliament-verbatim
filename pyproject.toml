@@ -13,6 +13,7 @@ dependencies = [
 
 [project.scripts]
 eu-verbatim = "eu_verbatim.cli:main"
+eu-sittings = "eu_verbatim.sittings:main"
 
 [build-system]
 requires = ["hatchling"]

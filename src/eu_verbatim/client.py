@@ -172,6 +172,19 @@ class ApiClient:
             log.warning("%s: ignoring %d records not listed for this date", date, len(unknown))
         return [records[i] for i in ids if i in records]
 
+    def meetings(self, year: int, page_size: int = 500) -> list[dict]:
+        """All plenary sittings of a year, held or scheduled."""
+        records: dict[str, dict] = {}
+        offset = 0
+        while True:
+            data = self.get("meetings", {"year": year, "limit": page_size, "offset": offset})
+            batch = (data or {}).get("data", [])
+            for r in batch:
+                records.setdefault(r["activity_id"], r)
+            if len(batch) < page_size:
+                return list(records.values())
+            offset += page_size
+
     def mep(self, person_id: str) -> dict | None:
         data = self.get_cached("meps", person_id, f"meps/{person_id}")
         return (data or {}).get("data", [None])[0]
