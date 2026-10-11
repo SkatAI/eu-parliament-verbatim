@@ -31,6 +31,44 @@ uv run eu-verbatim --from 2026-10-05 --to 2026-10-08
 * Days that already have a JSON file are skipped. Use `--overwrite` to rebuild them.
 * Other options: `--data-dir`, `--logs-dir`, `--cache-dir`, `--no-cache` and `--max-requests` (see `--help`).
 
+### Sitting days of a year
+
+`eu-sittings` lists the plenary sitting days of a year, from `GET /meetings?year=YYYY`. It gives the weekday, the
+location (Strasbourg or Brussels) and a status:
+
+* `held` when the API has minutes or a verbatim record attached to the sitting;
+* `scheduled` for a sitting still on the calendar.
+
+```bash
+uv run eu-sittings 2026                       # table of all sittings, held and scheduled
+uv run eu-sittings 2026 --held --dates-only   # one date per line, held sittings only
+uv run eu-sittings 2026 --json sittings.json  # also write the list to a JSON file
+```
+
+For 2026 (as of 2026-10-11), it lists 54 sitting days: 40 held and 14 scheduled.
+
+### Last N sittings
+
+`scripts/fetch_last_sessions.sh` builds the dataset for the last N held sitting days (10 by default):
+
+```bash
+scripts/fetch_last_sessions.sh            # last 10 sittings
+scripts/fetch_last_sessions.sh 20         # last 20 sittings
+DRY_RUN=1 scripts/fetch_last_sessions.sh  # only print the dates and commands
+```
+
+* **Dates:** they come from `eu-sittings --held --dates-only` and are cached in `.cache/sittings/<year>.txt`. The
+  current year's list is refreshed after a day; past years are kept. Earlier years are added when the current year
+  has fewer than N sittings.
+* **API cap:** each `eu-verbatim` run rate-limits itself, but that limiter ends with the process. So after each
+  day the script reads the number of API requests the run made and sleeps `requests × 300 / 450` seconds, keeping
+  the pace under the cap of 500 requests per 5 minutes.
+* **Cost:** a day with a cold MEP cache makes about 190 requests and is followed by a pause of about 2 minutes.
+  Later days are cheaper, because MEPs are cached.
+* **Re-runs:** a sitting that is already in `data/<date>.json` is skipped before calling `eu-verbatim`, so it
+  makes no API request and triggers no pause. The script can be re-run safely; to rebuild a day, delete its file
+  or run `uv run eu-verbatim <date> --overwrite`.
+
 ## How it works
 
 1. **Speeches.** `GET /speeches?sitting-date=D&sort-by=number:asc&include-output=xml_fragment&language-filter=mul`.
@@ -132,6 +170,7 @@ interventions with `statement_type: "communication"`.
 ```bash
 uv run pytest -m "not live"   # offline
 uv run pytest                 # also runs live tests against the API (~250 requests)
+DRY_RUN=1 scripts/fetch_last_sessions.sh   # check which dates the shell script would build
 ```
 
 * `tests/test_parse.py` compares the API records of `CRE-10-2026-10-05-ITM-012`, stored in `tests/fixtures/`,
@@ -142,6 +181,8 @@ uv run pytest                 # also runs live tests against the API (~250 reque
   * every paragraph.
 * `tests/test_live.py` builds 2026-10-05 from the live API and runs the same comparison. It also checks the speaker
   enrichment, and that 2026-10-04 (a Sunday) returns no session.
+* `tests/test_sittings.py` checks how `eu-sittings` reads held and scheduled sittings. A live test checks that the
+  2026 list is sorted and includes the 5–8 October sitting week.
 
 The HTML fixture was extracted with a browser, because europarl.europa.eu blocks non-browser clients.
 
