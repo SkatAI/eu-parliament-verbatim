@@ -65,6 +65,9 @@ DRY_RUN=1 scripts/fetch_last_sessions.sh  # only print the dates and commands
   the pace under the cap of 500 requests per 5 minutes.
 * **Cost:** a day with a cold MEP cache makes about 190 requests and is followed by a pause of about 2 minutes.
   Later days are cheaper, because MEPs are cached.
+* **Progress:** a progress bar shows how many of the days to download are done, with the elapsed time. During
+  each API cap pause, a second bar counts down the seconds left. When the output is not a terminal (a pipe or a log
+  file), each update is printed on its own line.
 * **Re-runs:** a sitting that is already in `data/<date>.json` is skipped before calling `eu-verbatim`, so it
   makes no API request and triggers no pause. The script can be re-run safely; to rebuild a day, delete its file
   or run `uv run eu-verbatim <date> --overwrite`.

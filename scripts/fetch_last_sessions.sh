@@ -65,14 +65,51 @@ last="$(printf '%s\n' $todo | tail -1)"
 
 [[ "$DRY_RUN" == "1" ]] && { for d in $todo; do echo "would run: uv run eu-verbatim $d"; done; exit 0; }
 
+# Progress bar: bar <done> <total> <label>
+# On a terminal the line is redrawn in place; otherwise (log file, pipe) one line per update.
+BAR_WIDTH=30
+bar() {
+    local done="$1" total="$2" label="$3"
+    local filled=$(( done * BAR_WIDTH / total ))
+    local hashes dashes
+    hashes="$(printf '%*s' "$filled" '' | tr ' ' '#')"
+    dashes="$(printf '%*s' $(( BAR_WIDTH - filled )) '' | tr ' ' '-')"
+    if [[ -t 1 ]]; then
+        printf '\r\033[K[%s%s] %3d%%  %s' "$hashes" "$dashes" $(( done * 100 / total )) "$label"
+    else
+        printf '[%s%s] %3d%%  %s\n' "$hashes" "$dashes" $(( done * 100 / total )) "$label"
+    fi
+}
+end_bar() { [[ -t 1 ]] && printf '\n' || true; }
+
+# Countdown shown while pausing for the API cap.
+wait_with_bar() {
+    local seconds="$1" reason="$2" s
+    [[ -t 1 ]] || { echo "$reason: sleeping ${seconds}s"; sleep "$seconds"; return; }
+    for (( s = 0; s < seconds; s++ )); do
+        bar "$s" "$seconds" "$reason: $(( seconds - s ))s left"
+        sleep 1
+    done
+    bar "$seconds" "$seconds" "$reason: done"
+    end_bar
+}
+
+total="$(printf '%s\n' $todo | grep -c .)"
+count=0
+started=$SECONDS
 for d in $todo; do
-    output="$(uv run eu-verbatim "$d" | tee /dev/stderr)"
+    bar "$count" "$total" "day $((count + 1))/$total: downloading $d ..."
+    end_bar
+    output="$(uv run eu-verbatim "$d")"
+    printf '%s\n' "$output" | sed 's/^/    /'
+    count=$((count + 1))
+    bar "$count" "$total" "$count/$total days downloaded ($(( (SECONDS - started) / 60 ))m$(( (SECONDS - started) % 60 ))s elapsed)"
+    end_bar
     requests="$(printf '%s\n' "$output" | sed -n 's/.* \([0-9][0-9]*\) API requests.*/\1/p' | tail -1)"
     requests="${requests:-0}"
     if [[ "$d" != "$last" && "$requests" -gt 0 ]]; then
         pause=$(( (requests * CAP_WINDOW + CAP_REQUESTS - 1) / CAP_REQUESTS ))
-        echo "$requests API requests -> sleeping ${pause}s to stay under the API cap"
-        sleep "$pause"
+        wait_with_bar "$pause" "API cap pause after $requests requests"
     fi
 done
-echo "done"
+echo "done: $total day(s) downloaded in $(( (SECONDS - started) / 60 ))m$(( (SECONDS - started) % 60 ))s"
