@@ -11,7 +11,11 @@ dist/
 logs/*
 !logs/.gitkeep
 !logs/api_20261011-093658.log
-.cache/
+.cache/*
+!.cache/meps/
+!.cache/sittings/
+!.cache/corporate-bodies/
+.cache/*/*
 !.cache/meps/99878.json
 !.cache/sittings/2026.txt
 !.cache/corporate-bodies/8000.json
