@@ -1,0 +1,287 @@
+2026-10-11 09:36:58,430 INFO eu_verbatim building 2026-10-05
+2026-10-11 09:36:59,553 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/speeches?format=application%2Fld%2Bjson&sitting-date=2026-10-05&limit=500&offset=0 -> 200 (846466 bytes, 1.12s, attempt 1)
+2026-10-11 09:37:04,473 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/speeches?format=application%2Fld%2Bjson&sitting-date=2026-10-05&include-output=xml_fragment&language-filter=mul&limit=100&offset=0 -> 200 (5684196 bytes, 4.91s, attempt 1)
+2026-10-11 09:37:09,374 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/speeches?format=application%2Fld%2Bjson&sitting-date=2026-10-05&include-output=xml_fragment&language-filter=mul&limit=100&offset=100 -> 200 (6219000 bytes, 4.86s, attempt 1)
+2026-10-11 09:37:09,450 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256864?format=application%2Fld%2Bjson -> 200 (8067 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:09,477 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/7018?format=application%2Fld%2Bjson -> 200 (3950 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:09,503 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6847?format=application%2Fld%2Bjson -> 200 (1790 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:09,531 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/257105?format=application%2Fld%2Bjson -> 200 (4329 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:09,559 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/96812?format=application%2Fld%2Bjson -> 200 (35916 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:09,586 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/7038?format=application%2Fld%2Bjson -> 200 (5080 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:09,612 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6667?format=application%2Fld%2Bjson -> 200 (1861 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:09,641 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/88552?format=application%2Fld%2Bjson -> 200 (5187 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:09,666 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/7150?format=application%2Fld%2Bjson -> 200 (1914 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:09,692 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6848?format=application%2Fld%2Bjson -> 200 (1787 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:09,718 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/257046?format=application%2Fld%2Bjson -> 200 (7562 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:09,743 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/7979?format=application%2Fld%2Bjson -> 200 (1475 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:09,772 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/118859?format=application%2Fld%2Bjson -> 200 (27694 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:09,799 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6690?format=application%2Fld%2Bjson -> 200 (1475 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:09,830 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/277178?format=application%2Fld%2Bjson -> 200 (4364 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:09,856 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6662?format=application%2Fld%2Bjson -> 200 (1354 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:09,883 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256945?format=application%2Fld%2Bjson -> 200 (5257 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:09,908 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/7151?format=application%2Fld%2Bjson -> 200 (2180 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:09,934 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6802?format=application%2Fld%2Bjson -> 200 (1692 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:09,962 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/197556?format=application%2Fld%2Bjson -> 200 (11846 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:09,988 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6864?format=application%2Fld%2Bjson -> 200 (1716 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:10,015 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/257299?format=application%2Fld%2Bjson -> 200 (6664 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:10,041 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/7036?format=application%2Fld%2Bjson -> 200 (2688 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:10,067 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6740?format=application%2Fld%2Bjson -> 200 (1235 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:10,095 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256971?format=application%2Fld%2Bjson -> 200 (10205 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:10,120 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/7035?format=application%2Fld%2Bjson -> 200 (1694 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:10,145 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/7026?format=application%2Fld%2Bjson -> 200 (1572 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:10,172 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256900?format=application%2Fld%2Bjson -> 200 (12022 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:10,198 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6561?format=application%2Fld%2Bjson -> 200 (1899 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:10,224 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/7031?format=application%2Fld%2Bjson -> 200 (1884 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:10,251 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/197533?format=application%2Fld%2Bjson -> 200 (16563 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:10,277 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6878?format=application%2Fld%2Bjson -> 200 (1860 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:10,303 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/257092?format=application%2Fld%2Bjson -> 200 (6695 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:10,329 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6718?format=application%2Fld%2Bjson -> 200 (1330 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:10,356 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/197770?format=application%2Fld%2Bjson -> 200 (17010 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:10,383 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6874?format=application%2Fld%2Bjson -> 200 (2003 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:10,385 DEBUG eu_verbatim.api cache hit meps/257105
+2026-10-11 09:37:10,410 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/257238?format=application%2Fld%2Bjson -> 200 (6700 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:10,435 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/7022?format=application%2Fld%2Bjson -> 200 (1527 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:10,461 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/197579?format=application%2Fld%2Bjson -> 200 (13322 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:10,487 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6724?format=application%2Fld%2Bjson -> 200 (1547 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:10,513 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/257083?format=application%2Fld%2Bjson -> 200 (6554 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:10,538 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6817?format=application%2Fld%2Bjson -> 200 (1692 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:10,565 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/257262?format=application%2Fld%2Bjson -> 200 (4703 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:10,590 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6648?format=application%2Fld%2Bjson -> 200 (1314 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:10,592 DEBUG eu_verbatim.api cache hit meps/197533
+2026-10-11 09:37:10,618 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/96940?format=application%2Fld%2Bjson -> 200 (18942 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:10,644 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6693?format=application%2Fld%2Bjson -> 200 (1332 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:10,672 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/257118?format=application%2Fld%2Bjson -> 200 (5393 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:10,697 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/7978?format=application%2Fld%2Bjson -> 200 (1980 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:10,698 DEBUG eu_verbatim.api cache hit meps/197770
+2026-10-11 09:37:10,725 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/197514?format=application%2Fld%2Bjson -> 200 (17057 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:10,751 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256939?format=application%2Fld%2Bjson -> 200 (5505 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:10,776 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6823?format=application%2Fld%2Bjson -> 200 (1484 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:10,804 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/218347?format=application%2Fld%2Bjson -> 200 (16046 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:10,829 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/8001?format=application%2Fld%2Bjson -> 200 (1596 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:10,857 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/204414?format=application%2Fld%2Bjson -> 200 (16656 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:10,883 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6871?format=application%2Fld%2Bjson -> 200 (1092 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:10,884 DEBUG eu_verbatim.api cache hit meps/197533
+2026-10-11 09:37:10,910 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256968?format=application%2Fld%2Bjson -> 200 (7956 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:10,936 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6697?format=application%2Fld%2Bjson -> 200 (1692 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:10,963 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/236050?format=application%2Fld%2Bjson -> 200 (9303 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:10,964 DEBUG eu_verbatim.api cache hit meps/197770
+2026-10-11 09:37:10,965 DEBUG eu_verbatim.api cache hit meps/118859
+2026-10-11 09:37:10,992 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256986?format=application%2Fld%2Bjson -> 200 (9443 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:11,019 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/7037?format=application%2Fld%2Bjson -> 200 (3052 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:11,045 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6924?format=application%2Fld%2Bjson -> 200 (1909 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:11,074 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/124691?format=application%2Fld%2Bjson -> 200 (17682 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:11,100 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6766?format=application%2Fld%2Bjson -> 200 (1500 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:11,127 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/58766?format=application%2Fld%2Bjson -> 200 (23573 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:11,154 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/7028?format=application%2Fld%2Bjson -> 200 (2960 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:11,180 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6798?format=application%2Fld%2Bjson -> 200 (1484 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:11,207 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256878?format=application%2Fld%2Bjson -> 200 (8798 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:11,233 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/261796?format=application%2Fld%2Bjson -> 200 (5333 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:11,260 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/257132?format=application%2Fld%2Bjson -> 200 (8944 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:11,286 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6826?format=application%2Fld%2Bjson -> 200 (1486 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:11,311 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/197435?format=application%2Fld%2Bjson -> 200 (14276 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:11,338 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6772?format=application%2Fld%2Bjson -> 200 (1956 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:11,366 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/197534?format=application%2Fld%2Bjson -> 200 (16694 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:11,391 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6827?format=application%2Fld%2Bjson -> 200 (1778 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:11,393 DEBUG eu_verbatim.api cache hit meps/197770
+2026-10-11 09:37:11,418 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/257296?format=application%2Fld%2Bjson -> 200 (8496 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:11,443 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6742?format=application%2Fld%2Bjson -> 200 (1355 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:11,470 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/197655?format=application%2Fld%2Bjson -> 200 (22305 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:11,496 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6914?format=application%2Fld%2Bjson -> 200 (3073 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:11,522 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256820?format=application%2Fld%2Bjson -> 200 (6723 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:11,548 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6730?format=application%2Fld%2Bjson -> 200 (1396 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:11,575 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256805?format=application%2Fld%2Bjson -> 200 (9376 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:11,600 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6795?format=application%2Fld%2Bjson -> 200 (1404 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:11,626 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256910?format=application%2Fld%2Bjson -> 200 (6325 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:11,654 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/197718?format=application%2Fld%2Bjson -> 200 (17520 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:11,658 DEBUG eu_verbatim.api cache hit meps/257105
+2026-10-11 09:37:11,686 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/197417?format=application%2Fld%2Bjson -> 200 (19751 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:11,711 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6734?format=application%2Fld%2Bjson -> 200 (1740 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:11,712 DEBUG eu_verbatim.api cache hit meps/58766
+2026-10-11 09:37:11,739 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/197469?format=application%2Fld%2Bjson -> 200 (13540 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:11,765 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6754?format=application%2Fld%2Bjson -> 200 (1597 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:11,792 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/257019?format=application%2Fld%2Bjson -> 200 (6027 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:11,818 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/7009?format=application%2Fld%2Bjson -> 200 (1501 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:11,845 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/197525?format=application%2Fld%2Bjson -> 200 (15364 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:11,847 DEBUG eu_verbatim.api cache hit meps/256971
+2026-10-11 09:37:11,848 DEBUG eu_verbatim.api cache hit meps/256910
+2026-10-11 09:37:11,874 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/124766?format=application%2Fld%2Bjson -> 200 (26298 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:11,900 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6652?format=application%2Fld%2Bjson -> 200 (1451 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:11,902 DEBUG eu_verbatim.api cache hit meps/256971
+2026-10-11 09:37:11,927 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/257054?format=application%2Fld%2Bjson -> 200 (6482 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:11,952 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6927?format=application%2Fld%2Bjson -> 200 (1190 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:11,954 DEBUG eu_verbatim.api cache hit meps/197770
+2026-10-11 09:37:11,954 DEBUG eu_verbatim.api cache hit meps/197770
+2026-10-11 09:37:11,984 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/197829?format=application%2Fld%2Bjson -> 200 (14784 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:11,985 DEBUG eu_verbatim.api cache hit meps/58766
+2026-10-11 09:37:12,010 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/257150?format=application%2Fld%2Bjson -> 200 (7410 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:12,036 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6831?format=application%2Fld%2Bjson -> 200 (1788 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:12,063 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/40224?format=application%2Fld%2Bjson -> 200 (13710 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:12,089 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6708?format=application%2Fld%2Bjson -> 200 (1596 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:12,115 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/257043?format=application%2Fld%2Bjson -> 200 (7389 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:12,140 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6666?format=application%2Fld%2Bjson -> 200 (1355 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:12,167 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/198076?format=application%2Fld%2Bjson -> 200 (7972 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:12,193 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6671?format=application%2Fld%2Bjson -> 200 (1381 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:12,218 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256806?format=application%2Fld%2Bjson -> 200 (6975 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:12,243 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6670?format=application%2Fld%2Bjson -> 200 (1454 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:12,270 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/257014?format=application%2Fld%2Bjson -> 200 (6812 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:12,271 DEBUG eu_verbatim.api cache hit meps/118859
+2026-10-11 09:37:12,297 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256967?format=application%2Fld%2Bjson -> 200 (5626 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:12,323 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/8006?format=application%2Fld%2Bjson -> 200 (2436 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:12,349 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256875?format=application%2Fld%2Bjson -> 200 (9035 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:12,351 DEBUG eu_verbatim.api cache hit meps/118859
+2026-10-11 09:37:14,479 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/201944?format=application%2Fld%2Bjson -> 404 (0 bytes, 2.13s, attempt 1)
+2026-10-11 09:37:14,507 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/38542?format=application%2Fld%2Bjson -> 200 (11834 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:14,533 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6712?format=application%2Fld%2Bjson -> 200 (1810 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:14,559 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/119652?format=application%2Fld%2Bjson -> 200 (7511 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:14,585 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6797?format=application%2Fld%2Bjson -> 200 (1837 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:14,586 DEBUG eu_verbatim.api cache hit meps/256910
+2026-10-11 09:37:14,587 DEBUG eu_verbatim.api cache hit meps/119652
+2026-10-11 09:37:14,613 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/257038?format=application%2Fld%2Bjson -> 200 (6772 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:14,638 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6778?format=application%2Fld%2Bjson -> 200 (1450 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:14,664 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256922?format=application%2Fld%2Bjson -> 200 (7044 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:14,689 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/7876?format=application%2Fld%2Bjson -> 200 (1884 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:14,717 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/257055?format=application%2Fld%2Bjson -> 200 (6368 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:14,743 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6702?format=application%2Fld%2Bjson -> 200 (1596 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:14,770 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256902?format=application%2Fld%2Bjson -> 200 (6713 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:14,795 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6728?format=application%2Fld%2Bjson -> 200 (1379 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:14,823 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256996?format=application%2Fld%2Bjson -> 200 (5303 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:14,849 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6696?format=application%2Fld%2Bjson -> 200 (1572 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:14,850 DEBUG eu_verbatim.api cache hit meps/197525
+2026-10-11 09:37:14,877 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/125093?format=application%2Fld%2Bjson -> 200 (18115 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:14,903 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6733?format=application%2Fld%2Bjson -> 200 (1650 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:14,929 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256857?format=application%2Fld%2Bjson -> 200 (6829 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:14,955 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6737?format=application%2Fld%2Bjson -> 200 (2780 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:14,957 DEBUG eu_verbatim.api cache hit meps/58766
+2026-10-11 09:37:14,984 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/197652?format=application%2Fld%2Bjson -> 200 (13485 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:15,009 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6745?format=application%2Fld%2Bjson -> 200 (1717 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:15,011 DEBUG eu_verbatim.api cache hit meps/256967
+2026-10-11 09:37:15,036 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256994?format=application%2Fld%2Bjson -> 200 (10251 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:15,038 DEBUG eu_verbatim.api cache hit meps/256806
+2026-10-11 09:37:15,063 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256874?format=application%2Fld%2Bjson -> 200 (5629 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:15,090 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256895?format=application%2Fld%2Bjson -> 200 (7854 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:15,116 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256943?format=application%2Fld%2Bjson -> 200 (5898 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:15,143 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256803?format=application%2Fld%2Bjson -> 200 (6515 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:15,168 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6672?format=application%2Fld%2Bjson -> 200 (2676 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:15,169 DEBUG eu_verbatim.api cache hit meps/197533
+2026-10-11 09:37:15,196 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/244571?format=application%2Fld%2Bjson -> 200 (14481 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:15,222 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6876?format=application%2Fld%2Bjson -> 200 (1498 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:15,249 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/24942?format=application%2Fld%2Bjson -> 200 (28457 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:15,275 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6844?format=application%2Fld%2Bjson -> 200 (1644 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:15,276 DEBUG eu_verbatim.api cache hit meps/197770
+2026-10-11 09:37:15,277 DEBUG eu_verbatim.api cache hit meps/256875
+2026-10-11 09:37:15,304 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/236053?format=application%2Fld%2Bjson -> 200 (10130 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:15,308 DEBUG eu_verbatim.api cache hit meps/118859
+2026-10-11 09:37:15,336 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256880?format=application%2Fld%2Bjson -> 200 (9377 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:15,362 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6758?format=application%2Fld%2Bjson -> 200 (1379 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:15,363 DEBUG eu_verbatim.api cache hit meps/204414
+2026-10-11 09:37:15,390 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/280663?format=application%2Fld%2Bjson -> 200 (4370 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:15,392 DEBUG eu_verbatim.api cache hit meps/197655
+2026-10-11 09:37:15,420 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256924?format=application%2Fld%2Bjson -> 200 (4911 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:15,446 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6902?format=application%2Fld%2Bjson -> 200 (1522 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:15,472 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/257032?format=application%2Fld%2Bjson -> 200 (6999 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:15,473 DEBUG eu_verbatim.api cache hit meps/58766
+2026-10-11 09:37:15,475 DEBUG eu_verbatim.api cache hit meps/118859
+2026-10-11 09:37:15,502 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/197701?format=application%2Fld%2Bjson -> 200 (12596 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:15,527 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6731?format=application%2Fld%2Bjson -> 200 (1836 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:15,528 DEBUG eu_verbatim.api cache hit meps/58766
+2026-10-11 09:37:15,554 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/257119?format=application%2Fld%2Bjson -> 200 (7211 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:15,580 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/7962?format=application%2Fld%2Bjson -> 200 (1788 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:15,582 DEBUG eu_verbatim.api cache hit meps/256902
+2026-10-11 09:37:15,608 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/197494?format=application%2Fld%2Bjson -> 200 (19091 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:15,634 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6919?format=application%2Fld%2Bjson -> 200 (1356 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:15,661 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256955?format=application%2Fld%2Bjson -> 200 (6347 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:15,687 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/7012?format=application%2Fld%2Bjson -> 200 (1827 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:15,716 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/197470?format=application%2Fld%2Bjson -> 200 (16343 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:15,742 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6757?format=application%2Fld%2Bjson -> 200 (2654 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:15,769 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256944?format=application%2Fld%2Bjson -> 200 (6093 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:15,797 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/197402?format=application%2Fld%2Bjson -> 200 (15160 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:15,823 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6713?format=application%2Fld%2Bjson -> 200 (1234 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:15,850 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/257068?format=application%2Fld%2Bjson -> 200 (9187 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:15,876 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6705?format=application%2Fld%2Bjson -> 200 (1596 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:15,878 DEBUG eu_verbatim.api cache hit meps/96812
+2026-10-11 09:37:15,880 DEBUG eu_verbatim.api cache hit meps/256922
+2026-10-11 09:37:15,881 DEBUG eu_verbatim.api cache hit meps/58766
+2026-10-11 09:37:15,882 DEBUG eu_verbatim.api cache hit meps/118859
+2026-10-11 09:37:15,910 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256959?format=application%2Fld%2Bjson -> 200 (4546 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:15,911 DEBUG eu_verbatim.api cache hit meps/256971
+2026-10-11 09:37:15,912 DEBUG eu_verbatim.api cache hit meps/256971
+2026-10-11 09:37:15,914 DEBUG eu_verbatim.api cache hit meps/256880
+2026-10-11 09:37:15,941 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/197699?format=application%2Fld%2Bjson -> 200 (14091 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:15,942 DEBUG eu_verbatim.api cache hit meps/118859
+2026-10-11 09:37:15,943 DEBUG eu_verbatim.api cache hit meps/256971
+2026-10-11 09:37:15,944 DEBUG eu_verbatim.api cache hit meps/257019
+2026-10-11 09:37:15,970 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256950?format=application%2Fld%2Bjson -> 200 (6473 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:15,998 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/197392?format=application%2Fld%2Bjson -> 200 (17553 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:16,000 DEBUG eu_verbatim.api cache hit meps/96812
+2026-10-11 09:37:16,001 DEBUG eu_verbatim.api cache hit meps/197392
+2026-10-11 09:37:16,028 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256890?format=application%2Fld%2Bjson -> 200 (8206 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:16,053 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6950?format=application%2Fld%2Bjson -> 200 (1484 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:16,055 DEBUG eu_verbatim.api cache hit meps/257132
+2026-10-11 09:37:16,081 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/198490?format=application%2Fld%2Bjson -> 200 (17462 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:16,107 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6781?format=application%2Fld%2Bjson -> 200 (2285 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:16,393 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/257051?format=application%2Fld%2Bjson -> 200 (6989 bytes, 0.28s, attempt 1)
+2026-10-11 09:37:16,395 DEBUG eu_verbatim.api cache hit meps/198490
+2026-10-11 09:37:16,421 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/214839?format=application%2Fld%2Bjson -> 200 (14604 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:16,447 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6716?format=application%2Fld%2Bjson -> 200 (1282 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:16,450 DEBUG eu_verbatim.api cache hit meps/257105
+2026-10-11 09:37:16,475 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/197628?format=application%2Fld%2Bjson -> 200 (12128 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:16,505 DEBUG eu_verbatim.api cache hit meps/256806
+2026-10-11 09:37:16,508 DEBUG eu_verbatim.api cache hit meps/197534
+2026-10-11 09:37:16,553 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/202073?format=application%2Fld%2Bjson -> 200 (20158 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:16,579 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6681?format=application%2Fld%2Bjson -> 200 (1981 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:16,729 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256871?format=application%2Fld%2Bjson -> 200 (7371 bytes, 0.15s, attempt 1)
+2026-10-11 09:37:16,755 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/7023?format=application%2Fld%2Bjson -> 200 (1435 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:16,756 DEBUG eu_verbatim.api cache hit meps/197525
+2026-10-11 09:37:16,758 DEBUG eu_verbatim.api cache hit meps/256902
+2026-10-11 09:37:16,912 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256811?format=application%2Fld%2Bjson -> 200 (7832 bytes, 0.15s, attempt 1)
+2026-10-11 09:37:16,938 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6680?format=application%2Fld%2Bjson -> 200 (2101 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:16,940 DEBUG eu_verbatim.api cache hit meps/197525
+2026-10-11 09:37:16,941 DEBUG eu_verbatim.api cache hit meps/197525
+2026-10-11 09:37:17,093 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/123562?format=application%2Fld%2Bjson -> 200 (12324 bytes, 0.15s, attempt 1)
+2026-10-11 09:37:17,122 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6810?format=application%2Fld%2Bjson -> 200 (1451 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:17,149 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/125012?format=application%2Fld%2Bjson -> 200 (23739 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:17,174 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6709?format=application%2Fld%2Bjson -> 200 (1644 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:17,176 DEBUG eu_verbatim.api cache hit meps/197770
+2026-10-11 09:37:17,179 DEBUG eu_verbatim.api cache hit meps/201944
+2026-10-11 09:37:17,205 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256946?format=application%2Fld%2Bjson -> 200 (6517 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:17,230 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6807?format=application%2Fld%2Bjson -> 200 (1582 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:17,256 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256957?format=application%2Fld%2Bjson -> 200 (5111 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:17,257 DEBUG eu_verbatim.api cache hit meps/256959
+2026-10-11 09:37:17,258 DEBUG eu_verbatim.api cache hit meps/118859
+2026-10-11 09:37:17,259 DEBUG eu_verbatim.api cache hit meps/256922
+2026-10-11 09:37:17,285 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/111412?format=application%2Fld%2Bjson -> 200 (8270 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:17,310 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6661?format=application%2Fld%2Bjson -> 200 (1522 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:17,312 DEBUG eu_verbatim.api cache hit meps/197494
+2026-10-11 09:37:17,313 DEBUG eu_verbatim.api cache hit meps/197701
+2026-10-11 09:37:17,338 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/190574?format=application%2Fld%2Bjson -> 200 (7358 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:17,339 DEBUG eu_verbatim.api cache hit meps/118859
+2026-10-11 09:37:17,340 DEBUG eu_verbatim.api cache hit meps/58766
+2026-10-11 09:37:17,368 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256913?format=application%2Fld%2Bjson -> 200 (7206 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:17,370 DEBUG eu_verbatim.api cache hit meps/280663
+2026-10-11 09:37:17,397 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/124785?format=application%2Fld%2Bjson -> 200 (25148 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:17,424 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6906?format=application%2Fld%2Bjson -> 200 (1193 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:17,426 DEBUG eu_verbatim.api cache hit meps/197770
+2026-10-11 09:37:17,426 DEBUG eu_verbatim.api cache hit meps/197525
+2026-10-11 09:37:17,453 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/197447?format=application%2Fld%2Bjson -> 200 (20725 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:17,479 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6909?format=application%2Fld%2Bjson -> 200 (1069 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:17,506 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/278406?format=application%2Fld%2Bjson -> 200 (3849 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:17,532 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6771?format=application%2Fld%2Bjson -> 200 (2052 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:17,558 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/257297?format=application%2Fld%2Bjson -> 200 (5264 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:17,584 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6741?format=application%2Fld%2Bjson -> 200 (1427 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:17,585 DEBUG eu_verbatim.api cache hit meps/118859
+2026-10-11 09:37:17,612 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/99945?format=application%2Fld%2Bjson -> 200 (12484 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:17,639 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/257298?format=application%2Fld%2Bjson -> 200 (6392 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:17,665 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6739?format=application%2Fld%2Bjson -> 200 (1309 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:17,666 DEBUG eu_verbatim.api cache hit meps/119652
+2026-10-11 09:37:17,667 DEBUG eu_verbatim.api cache hit meps/118859
+2026-10-11 09:37:17,668 DEBUG eu_verbatim.api cache hit meps/58766
+2026-10-11 09:37:17,694 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/256833?format=application%2Fld%2Bjson -> 200 (6935 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:17,719 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6748?format=application%2Fld%2Bjson -> 200 (2084 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:17,745 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/257031?format=application%2Fld%2Bjson -> 200 (7795 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:17,747 DEBUG eu_verbatim.api cache hit meps/197533
+2026-10-11 09:37:17,748 DEBUG eu_verbatim.api cache hit meps/197770
+2026-10-11 09:37:17,749 DEBUG eu_verbatim.api cache hit meps/256959
+2026-10-11 09:37:17,774 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/meps/220897?format=application%2Fld%2Bjson -> 200 (5460 bytes, 0.02s, attempt 1)
+2026-10-11 09:37:17,801 INFO eu_verbatim.api GET https://data.europarl.europa.eu/api/v2/corporate-bodies/6747?format=application%2Fld%2Bjson -> 200 (1837 bytes, 0.03s, attempt 1)
+2026-10-11 09:37:17,803 DEBUG eu_verbatim.api cache hit meps/256944
+2026-10-11 09:37:17,835 INFO eu_verbatim done: 1 files written, 211 API requests
